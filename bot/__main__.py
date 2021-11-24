@@ -1,6 +1,6 @@
 from pyrogram import idle, Client
-from Bot import app
-from Bot.modules import (
+from bot import app
+from bot.modules import (
     help,
     ping,
     spb,
