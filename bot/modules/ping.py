@@ -1,5 +1,5 @@
 from datetime import datetime
-from Bot import app
+from bot import app
 from pyrogram.types import Message
 from pyrogram import filters
 
