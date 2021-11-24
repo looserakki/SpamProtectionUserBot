@@ -13,8 +13,8 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 StartTime = time.time()
 
-API_ID = Config.API_ID
-API_HASH = Config.API_HASH
-SESSION = Config.SESSION
+API_ID = config.API_ID
+API_HASH = config.API_HASH
+SESSION = config.SESSION
 
 app = Client(SESSION, api_id=API_ID, api_hash=API_HASH)
