@@ -1,0 +1,38 @@
+{
+  "name": "SpamProtectionUserBot",
+  "description": "A Telegram Spam Protection UserBot written in Python using the Pyrogram library",
+  "repository": "https://github.com/TeamDeeCode/SpamProtectionUserBot",
+  "keywords": ["python", "telegram", "bot", "SpamProtection"],
+  "env": {
+    "API_ID": {
+      "description": "API_ID get it from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "API_HASH get it from my.telegram.org/apps",
+      "required": true
+    },
+    "SESSION_STRING": {
+      "description": "Pyrogram Session String, get it from repel",
+      "required": true
+    },
+    "LOGGER": {
+      "description": "put as True",
+      "required": true
+ }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
