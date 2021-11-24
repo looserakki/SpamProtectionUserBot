@@ -2,7 +2,7 @@ import logging
 import sys
 import time
 from pyrogram import Client, errors
-from config import Config
+import config
 import logging
 
 logging.basicConfig(
