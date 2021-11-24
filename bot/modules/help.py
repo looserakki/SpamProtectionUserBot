@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import filters
-from Bot import app
+from bot import app
 
 
 @app.on_message(filters.me & filters.regex("^\.help$"))
