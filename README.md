@@ -1,6 +1,6 @@
 # SpamProtectionUserBot
 
-A Telegram Spam Protection UserBot written in Python using the Pyrogram library
+A Telegram Spam Protection Info UserBot written in Python using the Pyrogram library
 
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/Achu2234/SaberUserBot?utm_source=github.com&utm_medium=referral&utm_content=Achu2234/SaberUserBot-UB&utm_campaign=Badge_Grade_Settings)
