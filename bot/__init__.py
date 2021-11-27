@@ -20,4 +20,4 @@ API_ID = API_ID
 API_HASH = API_HASH
 SESSION = SESSION
 
-app = Client(SESSION, api_id=API_ID, api_hash=API_HASH)
+app = Client(SESSION, API_ID, API_HASH)
